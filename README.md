@@ -19,6 +19,7 @@ Typora 不仅是优雅的写作工具，通过安装插件、更换主题、使�
 
 |                             名称                             | 说明                                                         |                             效果                             |
 | :----------------------------------------------------------: | :----------------------------------------------------------- | :----------------------------------------------------------: |
+| [Kraft Paper](https://github.com/jasper0507/kraft-paper) | 仿 claude.ai 暖纸审美的 Typora 主题，暖米色浅色 + 暖深暗色；正文衬线、固定 768px 栏宽、中文宋体正文/黑体强调。 | <img src="https://raw.githubusercontent.com/jasper0507/kraft-paper/main/screenshots/light.png" width="250"/> |
 |   [LaTeX](https://github.com/Keldos-Li/typora-latex-theme)   | 将 Typora 伪装成 LaTeX 的中文样式主题，本科生轻量级课程论文撰写的好帮手。 | <img src="https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/cover.png" width="250"/> |
 | [DrakeTyporaTheme](https://github.com/liangjingkanji/DrakeTyporaTheme) | 十二种主题风格 - Material Google JetBrains Vue Juejin Purple Ayu Dark | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png" width="250"/> |
 |           [Mdmdt](https://github.com/cayxc/Mdmdt)            | 一款极简文档主题，包含亮色和暗色两种主题，是深度定制的个性化 Typora 主题。 | <img src="https://github.com/cayxc/Mdmdt/raw/main/img/mdmdt-source.png" width="250"> |
