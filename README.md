@@ -53,4 +53,4 @@ Typora 不仅是优雅的写作工具，通过安装插件、更换主题、使�
 
 
 
-欢迎在 [Issues](https://github.com/bxiaopeng/awesome-markdown) 分享你的 Typora " 魔改 " 方案，让更多人看到！如果觉得这份清单有用的话，欢迎 Star。
+欢迎在 [Issues](https://github.com/mansucache/awesome-typora/issues) 分享你的 Typora " 魔改 " 方案，让更多人看到！如果觉得这份清单有用的话，欢迎 Star。
