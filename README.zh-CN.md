@@ -8,7 +8,7 @@
 
 Typora 主题、插件、模板与工具，附主题预览图。
 
-想找更多 Markdown 编辑器、写作与发布工具，可以接着看 [Awesome Markdown](https://github.com/mansucache/awesome-markdown)。
+相关清单：[Awesome Markdown](https://github.com/mansucache/awesome-markdown) 收录 Markdown 编辑器、写作与发布工具；[Awesome Obsidian](https://github.com/mansucache/awesome-obsidian) 收录 Obsidian 插件、主题与工作流。
 
 [主题](#主题) · [插件](#插件) · [模板](#模板) · [图片工具](#图片工具) · [导出与图表](#导出与图表) · [学习资料](#学习资料) · [参与贡献](#参与贡献)
 
@@ -16,11 +16,11 @@ Typora 主题、插件、模板与工具，附主题预览图。
 
 ## 主题
 
-点击图片可看大图，项目名链接到安装说明。标注“作者预览”的条目在原项目查看图片。
+点击图片可看大图，项目名链接到安装说明。
 
 | 主题 | 简介 | 预览 |
 | --- | --- | :---: |
-| [LaTeX](https://github.com/Keldos-Li/typora-latex-theme) | 中文 LaTeX 风格，适合需要论文式排版的文档。 | [作者预览](https://github.com/Keldos-Li/typora-latex-theme) |
+| [LaTeX](https://github.com/Keldos-Li/typora-latex-theme) | 中文 LaTeX 风格，适合需要论文式排版的文档。 | <a href="imgs/typora-latex-theme.png"><img src="imgs/typora-latex-theme.png" alt="LaTeX 主题预览" width="280" /></a> |
 | [DrakeTyporaTheme](https://github.com/liangjingkanji/DrakeTyporaTheme) | 包含多种配色，便于选择不同的写作界面风格。 | <a href="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png"><img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png" alt="DrakeTyporaTheme 主题预览" width="280" /></a> |
 | [Mdmdt](https://github.com/cayxc/Mdmdt) | 极简文档风格，包含亮色和暗色主题。 | <a href="https://github.com/cayxc/Mdmdt/raw/main/img/mdmdt-source.png"><img src="https://github.com/cayxc/Mdmdt/raw/main/img/mdmdt-source.png" alt="Mdmdt 主题预览" width="280" /></a> |
 | [Notion for Typora](https://github.com/adrian-fuertes/typora-notion-theme) | 受 Notion 启发的文档样式。 | <a href="https://github.com/adrian-fuertes/typora-notion-theme/raw/main/assets/images/header-horizontal.jpg"><img src="https://github.com/adrian-fuertes/typora-notion-theme/raw/main/assets/images/header-horizontal.jpg" alt="Notion for Typora 主题预览" width="280" /></a> |
@@ -28,9 +28,9 @@ Typora 主题、插件、模板与工具，附主题预览图。
 | [Blackout](https://github.com/obscurefreeman/typora_theme_blackout) | 深色背景搭配高对比度正文与代码配色。 | <a href="https://github.com/obscurefreeman/typora_theme_blackout/assets/119153032/1965cfd5-2d4b-4422-86d1-11c225c399ee"><img src="https://github.com/obscurefreeman/typora_theme_blackout/assets/119153032/1965cfd5-2d4b-4422-86d1-11c225c399ee" alt="Blackout 主题预览" width="280" /></a> |
 | [Spring](https://github.com/SprInec/typora-spring-theme) | 清爽的文档主题。 | <a href="https://raw.githubusercontent.com/SprInec/typora-spring-theme/main/.assets/preview.png"><img src="https://raw.githubusercontent.com/SprInec/typora-spring-theme/main/.assets/preview.png" alt="Spring 主题预览" width="280" /></a> |
 | [Lapis](https://github.com/YiNNx/typora-theme-lapis) | 以蓝色为主色调。 | <a href="https://github.com/YiNNx/typora-theme-lapis/raw/main/imgs/3.png"><img src="https://github.com/YiNNx/typora-theme-lapis/raw/main/imgs/3.png" alt="Lapis 主题预览" width="280" /></a> |
-| [Ladder](https://github.com/guangzhengli/typora-ladder-theme) | 结合 LXGW 字体与 Tailwind 风格。 | [作者预览](https://github.com/guangzhengli/typora-ladder-theme) |
-| [Tailwind](https://github.com/andredelft/typora-tailwind-theme) | 采用 Tailwind Typography 排版，提供明暗两版，支持自定义灰阶。 | [作者预览](https://github.com/andredelft/typora-tailwind-theme) |
-| [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme) | Vue 文档风格，包含 Vue Dark；作者预览分别展示明暗两版。 | [作者预览](https://github.com/blinkfox/typora-vue-theme) |
+| [Ladder](https://github.com/guangzhengli/typora-ladder-theme) | 结合 LXGW 字体与 Tailwind 风格。 | <a href="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/9Fw6vA.png"><img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/9Fw6vA.png" alt="Ladder 主题预览" width="280" /></a> |
+| [Tailwind](https://github.com/andredelft/typora-tailwind-theme) | 采用 Tailwind Typography 排版，提供明暗两版，支持自定义灰阶。 | <a href="https://github.com/andredelft/typora-tailwind-theme/raw/main/media/tailwind-screenshot.png"><img src="https://github.com/andredelft/typora-tailwind-theme/raw/main/media/tailwind-screenshot.png" alt="Tailwind 主题预览" width="280" /></a> |
+| [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme) | Vue 文档风格，包含 Vue Dark；作者预览分别展示明暗两版。 | <a href="https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_01.png"><img src="https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_01.png" alt="typora-vue-theme 主题预览" width="280" /></a> |
 | [typora-blubook-themes](https://github.com/HanryYu/typora-blubook-theme/tree/master) | 面向日常阅读与书写的轻量主题。 | <a href="https://cdn.jsdelivr.net/gh/HanryYu/typora-blubook-theme@master/assets/3.png"><img src="https://cdn.jsdelivr.net/gh/HanryYu/typora-blubook-theme@master/assets/3.png" alt="typora-blubook-themes 主题预览" width="280" /></a> |
 | [Phycat](https://github.com/sumruler/typora-theme-phycat) | 强调颜色区分与文档层级。 | <a href="https://raw.githubusercontent.com/sumruler/typora-theme-phycat/main/assets/image-20251224115955956.png"><img src="https://raw.githubusercontent.com/sumruler/typora-theme-phycat/main/assets/image-20251224115955956.png" alt="Phycat 主题预览" width="280" /></a> |
 | [Claude-like](https://github.com/Muyiiiii/Typora_Claude-Like_Theme) | Claude 风格，提供浅色、灰蓝和深色三种配色，针对中文排版做了调整。 | <a href="https://raw.githubusercontent.com/Muyiiiii/Typora_Claude-Like_Theme/master/image/2026-03-11-claude-like-theme/light.png"><img src="https://raw.githubusercontent.com/Muyiiiii/Typora_Claude-Like_Theme/master/image/2026-03-11-claude-like-theme/light.png" alt="Claude-like 浅色主题预览" width="280" /></a> |

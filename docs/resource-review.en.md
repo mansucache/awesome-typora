@@ -65,6 +65,6 @@ On 2026-10-07, we checked the public READMEs, installation requirements, archive
 
 ## Theme images reviewed
 
-Checked preview sources and repository licenses for all 14 themes; see [image source records](image-sources.md). Spring now shows a document preview, and Phycat uses an image in the author's current README. Vue's original author displays and credits the Vue Dark fork, so that preview is not a mismatch; the description now identifies the dark variant. Four images have unresolved usage terms; their entries retain project and author-preview links.
+Checked preview sources and repository licenses for all 14 themes; see [image source records](image-sources.md). Spring now shows a document preview, and Phycat uses an image in the author's current README. Vue's original author displays and credits the Vue Dark fork, so that preview is not a mismatch; the description now identifies the dark variant. Four images have unresolved usage terms; the homepage retains the existing images and author project links, with details in the image source records.
 
 Theme installation, plugin behavior and export output were not tested. An unarchived theme is not a guarantee of compatibility with current Typora. Star and commit figures for the earlier eight additions remain dated snapshots above.

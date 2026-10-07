@@ -8,7 +8,7 @@ English | [简体中文](README.zh-CN.md)
 
 Themes, plugins, templates and tools for Typora, with theme previews.
 
-For more Markdown editors, writing tools and publishing resources, see [Awesome Markdown](https://github.com/mansucache/awesome-markdown).
+Related collections: [Awesome Markdown](https://github.com/mansucache/awesome-markdown) for Markdown editors, writing and publishing tools; [Awesome Obsidian](https://github.com/mansucache/awesome-obsidian) for Obsidian plugins, themes and workflows.
 
 [Themes](#themes) · [Plugins](#plugins) · [Templates](#templates) · [Image uploaders](#image-uploaders) · [Export and diagrams](#export-and-diagrams) · [Learning resources](#learning-resources) · [Contributing](#contributing)
 
@@ -18,11 +18,11 @@ For more Markdown editors, writing tools and publishing resources, see [Awesome 
 
 ## Themes
 
-Click an image for the full-size preview, or a project name for installation instructions. “Author previews” links open images on the original project page.
+Click an image for the full-size preview, or a project name for installation instructions.
 
 | Theme | Description | Preview |
 | --- | --- | :---: |
-| [LaTeX](https://github.com/Keldos-Li/typora-latex-theme) | LaTeX-style typography for Chinese documents and coursework. | [Author previews](https://github.com/Keldos-Li/typora-latex-theme) |
+| [LaTeX](https://github.com/Keldos-Li/typora-latex-theme) | LaTeX-style typography for Chinese documents and coursework. | <a href="imgs/typora-latex-theme.png"><img src="imgs/typora-latex-theme.png" alt="LaTeX theme preview" width="280" /></a> |
 | [DrakeTyporaTheme](https://github.com/liangjingkanji/DrakeTyporaTheme) | A collection of color schemes for different writing preferences. | <a href="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png"><img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png" alt="DrakeTyporaTheme theme preview" width="280" /></a> |
 | [Mdmdt](https://github.com/cayxc/Mdmdt) | Minimal document styling with light and dark variants. | <a href="https://github.com/cayxc/Mdmdt/raw/main/img/mdmdt-source.png"><img src="https://github.com/cayxc/Mdmdt/raw/main/img/mdmdt-source.png" alt="Mdmdt theme preview" width="280" /></a> |
 | [Notion for Typora](https://github.com/adrian-fuertes/typora-notion-theme) | Document styling inspired by Notion. | <a href="https://github.com/adrian-fuertes/typora-notion-theme/raw/main/assets/images/header-horizontal.jpg"><img src="https://github.com/adrian-fuertes/typora-notion-theme/raw/main/assets/images/header-horizontal.jpg" alt="Notion for Typora theme preview" width="280" /></a> |
@@ -30,9 +30,9 @@ Click an image for the full-size preview, or a project name for installation ins
 | [Blackout](https://github.com/obscurefreeman/typora_theme_blackout) | Dark backgrounds with contrasting text and code colors. | <a href="https://github.com/obscurefreeman/typora_theme_blackout/assets/119153032/1965cfd5-2d4b-4422-86d1-11c225c399ee"><img src="https://github.com/obscurefreeman/typora_theme_blackout/assets/119153032/1965cfd5-2d4b-4422-86d1-11c225c399ee" alt="Blackout theme preview" width="280" /></a> |
 | [Spring](https://github.com/SprInec/typora-spring-theme) | A light, uncluttered document theme. | <a href="https://raw.githubusercontent.com/SprInec/typora-spring-theme/main/.assets/preview.png"><img src="https://raw.githubusercontent.com/SprInec/typora-spring-theme/main/.assets/preview.png" alt="Spring theme preview" width="280" /></a> |
 | [Lapis](https://github.com/YiNNx/typora-theme-lapis) | A blue-accented theme. | <a href="https://github.com/YiNNx/typora-theme-lapis/raw/main/imgs/3.png"><img src="https://github.com/YiNNx/typora-theme-lapis/raw/main/imgs/3.png" alt="Lapis theme preview" width="280" /></a> |
-| [Ladder](https://github.com/guangzhengli/typora-ladder-theme) | Tailwind-style layout with LXGW Chinese fonts. | [Author previews](https://github.com/guangzhengli/typora-ladder-theme) |
-| [Tailwind](https://github.com/andredelft/typora-tailwind-theme) | Tailwind Typography layouts in light and dark variants, with configurable grayscale. | [Author previews](https://github.com/andredelft/typora-tailwind-theme) |
-| [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme) | Vue documentation styling, including Vue Dark; the project page shows both variants. | [Author previews](https://github.com/blinkfox/typora-vue-theme) |
+| [Ladder](https://github.com/guangzhengli/typora-ladder-theme) | Tailwind-style layout with LXGW Chinese fonts. | <a href="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/9Fw6vA.png"><img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/9Fw6vA.png" alt="Ladder theme preview" width="280" /></a> |
+| [Tailwind](https://github.com/andredelft/typora-tailwind-theme) | Tailwind Typography layouts in light and dark variants, with configurable grayscale. | <a href="https://github.com/andredelft/typora-tailwind-theme/raw/main/media/tailwind-screenshot.png"><img src="https://github.com/andredelft/typora-tailwind-theme/raw/main/media/tailwind-screenshot.png" alt="Tailwind theme preview" width="280" /></a> |
+| [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme) | Vue documentation styling, including Vue Dark; the project page shows both variants. | <a href="https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_01.png"><img src="https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_01.png" alt="typora-vue-theme theme preview" width="280" /></a> |
 | [typora-blubook-themes](https://github.com/HanryYu/typora-blubook-theme/tree/master) | A lightweight theme for reading and writing. | <a href="https://cdn.jsdelivr.net/gh/HanryYu/typora-blubook-theme@master/assets/3.png"><img src="https://cdn.jsdelivr.net/gh/HanryYu/typora-blubook-theme@master/assets/3.png" alt="typora-blubook-themes theme preview" width="280" /></a> |
 | [Phycat](https://github.com/sumruler/typora-theme-phycat) | Color accents that distinguish document sections and heading levels. | <a href="https://raw.githubusercontent.com/sumruler/typora-theme-phycat/main/assets/image-20251224115955956.png"><img src="https://raw.githubusercontent.com/sumruler/typora-theme-phycat/main/assets/image-20251224115955956.png" alt="Phycat theme preview" width="280" /></a> |
 | [Claude-like](https://github.com/Muyiiiii/Typora_Claude-Like_Theme) | Claude-inspired light, gray-blue and dark variants, with adjustments for Chinese typography. | <a href="https://raw.githubusercontent.com/Muyiiiii/Typora_Claude-Like_Theme/master/image/2026-03-11-claude-like-theme/light.png"><img src="https://raw.githubusercontent.com/Muyiiiii/Typora_Claude-Like_Theme/master/image/2026-03-11-claude-like-theme/light.png" alt="Claude-like light theme preview" width="280" /></a> |
