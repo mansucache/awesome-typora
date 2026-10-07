@@ -1,55 +1,104 @@
 # Awesome Typora
 
-各位朋友，如果你正在用 **Typora**，那么恭喜你，你已经站在了 Markdown 编辑器的 " 颜值和效率巅峰 "。但你真的把它 **" 玩到极致 "** 了吗？
+English | [简体中文](README.zh-CN.md)
 
-Typora 不仅是优雅的写作工具，通过安装插件、更换主题、使用模板，它能瞬间化身 **论文排版、简历制作 ，甚至是拥有 AI 辅助的强大工具！**
+Themes, plugins and templates for Typora. Find a new writing layout, make a résumé, or add features to your editor.
 
-下面，我为你整理了一份 **Typora 生态圈的 " 武功秘籍 "**，包含最热门的**增强插件、精美主题、实用模板和辅助工具**。无论你是想提升颜值，还是想让效率翻倍，这份清单应该都能满足你！**强烈建议收藏！**
+For more Markdown editors, writing tools and publishing resources, see [Awesome Markdown](https://github.com/mansucache/awesome-markdown).
 
-## 插件
+[Themes](#themes) · [Plugins](#plugins) · [Templates](#templates) · [Image uploaders](#image-uploaders) · [Export and diagrams](#export-and-diagrams) · [Learning resources](#learning-resources) · [Contributing](#contributing)
 
-- [Typora plugin](https://github.com/obgnail/typora_plugin) - Typora 插件，功能增强工具。
-- [VLOOK](https://github.com/MadMaxChow/VLOOK) - 优雅好用的 Typora/Markdown 主题包×增强插件。让你的 Markdown 有了新看(wán)法。
-- [Typora Community Plugin](https://github.com/typora-community-plugin/typora-community-plugin) - 增强 Typora 编辑体验的社区插件系统。
-- [Typora Copilot](https://github.com/Snowflyt/typora-copilot) - Typora 的 GitHub Copilot & Copilot Chat 插件，支持 Windows、macOS 和 Linux。
-- [typora-plugin-bilibili](https://github.com/xlzy520/typora-plugin-bilibili) - 支持哔哩哔哩图片上传的 Typora 插件，实现图片粘贴即可上传到哔哩哔哩，并替换链接。
-- [Collapsible Section](https://github.com/typora-community-plugin/typora-plugin-collapsible-section) -  折叠/展开 Markdown 章节。
+New additions favor projects with community interest and recent maintenance. See the dated [star counts and maintenance review](docs/resource-review.en.md).
 
-## 主题
+<a id="主题"></a>
 
-|                             名称                             | 说明                                                         |                             效果                             |
-| :----------------------------------------------------------: | :----------------------------------------------------------- | :----------------------------------------------------------: |
-|   [LaTeX](https://github.com/Keldos-Li/typora-latex-theme)   | 将 Typora 伪装成 LaTeX 的中文样式主题，本科生轻量级课程论文撰写的好帮手。 | <img src="https://raw.githubusercontent.com/Keldos-Li/pictures/main/typora-latex-theme/cover.png" width="250"/> |
-| [DrakeTyporaTheme](https://github.com/liangjingkanji/DrakeTyporaTheme) | 十二种主题风格 - Material Google JetBrains Vue Juejin Purple Ayu Dark | <img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png" width="250"/> |
-|           [Mdmdt](https://github.com/cayxc/Mdmdt)            | 一款极简文档主题，包含亮色和暗色两种主题，是深度定制的个性化 Typora 主题。 | <img src="https://github.com/cayxc/Mdmdt/raw/main/img/mdmdt-source.png" width="250"> |
-| [Notion for Typora](https://github.com/adrian-fuertes/typora-notion-theme) | 一款漂亮的由 Notion 启发的主题。                             | <img src="https://github.com/adrian-fuertes/typora-notion-theme/raw/main/assets/images/header-horizontal.jpg" width="250"> |
-| [typora-theme-orange-heart](https://github.com/evgo2017/typora-theme-orange-heart) | 一款基于 `markdown-nice` 橙心主题修改的主题。                | <img src="https://github.com/evgo2017/typora-theme-orange-heart/raw/master/assets/typora_theme_orange_heart.png" width="250"> |
-| [Blackout](https://github.com/obscurefreeman/typora_theme_blackout) | 一款清晰，高效，精美的 **Typora 主题。**                     | <img src="https://private-user-images.githubusercontent.com/119153032/305719720-1965cfd5-2d4b-4422-86d1-11c225c399ee.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTk0OTY1NjcsIm5iZiI6MTc1OTQ5NjI2NywicGF0aCI6Ii8xMTkxNTMwMzIvMzA1NzE5NzIwLTE5NjVjZmQ1LTJkNGItNDQyMi04NmQxLTExYzIyNWMzOTllZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAwM1QxMjU3NDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZjgxZjBjOWUwNzdhMjk3MTI5NzZiMjkxNTE5OWJhZWI3MTk4M2E0OWM2NjdiNTQ4YzRhNWY1ODgxMThjNWQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ltaOiVg29GvnWc6vQgYq8iDpvETSdwiFBMubcUiymh8" width="250"> |
-|   [Spring](https://github.com/SprInec/typora-spring-theme)   | 一款令人如沐春风的 Typora 灵动主题。                         | <img src="https://github.com/SprInec/typora-spring-theme/raw/main/.assets/logo-spring.png" width="250"> |
-|     [Lapis](https://github.com/YiNNx/typora-theme-lapis)     | 一款以蓝色为主色调的 Typora 主题。                           | <img src="https://github.com/YiNNx/typora-theme-lapis/raw/main/imgs/3.png" width="250"> |
-| [Ladder](https://github.com/guangzhengli/typora-ladder-theme) | 一款基于 LXGW 字体和 typora-tailwind-theme 外观的主题。      | <img src="https://camo.githubusercontent.com/469f3619a67469f05488176c0e58c533ffef72ce9d875f4970acccf2d9197b42/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f6775616e677a68656e676c692f50696355524c406d61737465722f755069632f3946773676412e706e67" width="250"> |
-| [Tailwind](https://github.com/andredelft/typora-tailwind-theme) | 一款漂亮的基于 [Tailwind Typography](https://tailwindcss.com/docs/typography-plugin) 布局的主题。 | <img src="https://github.com/andredelft/typora-tailwind-theme/raw/main/media/tailwind-screenshot.png" width="250"> |
-| [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme) | 一款类似于 Vue 文档风格的 Typora Markdown 编辑器主题。       | <img src="https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_01.png" width="250"> |
-| [typora-blubook-themes](https://github.com/HanryYu/typora-blubook-theme/tree/master) | 一款为 Typora 编辑器准备的轻量美观的主题。这个主题非常适合阅读和书写。 | <img src="https://camo.githubusercontent.com/dcc285133996c7d6af94d5bf90099291a7019db2984b0368cf0c1a2e3cedcebe/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f48616e727959752f7479706f72612d626c75626f6f6b2d7468656d65406d61737465722f6173736574732f332e706e67" width="250"> |
-|  [Phycat](https://github.com/sumruler/typora-theme-phycat)   | 一款结构清晰、层级分明的多彩Typora主题。                     | <img src="https://camo.githubusercontent.com/fd7227be0c9735a75dd782ecb0b12f880d13869f306fb1163aeb36dd8c512344/68747470733a2f2f63646e2e7068796361742e636e2f6c6f63616c6564697465722f3230323431323133313730303135302e706e67" width="250"> |
+## Themes
 
-## 模板
+Browse the previews, then open a project's page for installation instructions. Click an image to view it at full size.
 
-- [typora-markdown-resume](https://github.com/CodingDocs/typora-markdown-resume) - 简洁大方的程序员简历模板。
-- [LapisCV](https://github.com/BingyanStudio/LapisCV/blob/main/README-CN.md) - 通过 Markdown 轻松打造简历。支持 **VSCode** / **Typora** / **Obsidian** 多平台。风格简洁正式，适用于大部分场景。
+| Theme | Description | Preview |
+| --- | --- | :---: |
+| [LaTeX](https://github.com/Keldos-Li/typora-latex-theme) | LaTeX-style typography for Chinese documents and coursework. | <a href="imgs/typora-latex-theme.png"><img src="imgs/typora-latex-theme.png" alt="LaTeX theme preview" width="280" /></a> |
+| [DrakeTyporaTheme](https://github.com/liangjingkanji/DrakeTyporaTheme) | A collection of color schemes for different writing preferences. | <a href="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png"><img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png" alt="DrakeTyporaTheme theme preview" width="280" /></a> |
+| [Mdmdt](https://github.com/cayxc/Mdmdt) | Minimal document styling with light and dark variants. | <a href="https://github.com/cayxc/Mdmdt/raw/main/img/mdmdt-source.png"><img src="https://github.com/cayxc/Mdmdt/raw/main/img/mdmdt-source.png" alt="Mdmdt theme preview" width="280" /></a> |
+| [Notion for Typora](https://github.com/adrian-fuertes/typora-notion-theme) | Document styling inspired by Notion. | <a href="https://github.com/adrian-fuertes/typora-notion-theme/raw/main/assets/images/header-horizontal.jpg"><img src="https://github.com/adrian-fuertes/typora-notion-theme/raw/main/assets/images/header-horizontal.jpg" alt="Notion for Typora theme preview" width="280" /></a> |
+| [typora-theme-orange-heart](https://github.com/evgo2017/typora-theme-orange-heart) | Adapted from the Orange Heart theme in markdown-nice. | <a href="https://github.com/evgo2017/typora-theme-orange-heart/raw/master/assets/typora_theme_orange_heart.png"><img src="https://github.com/evgo2017/typora-theme-orange-heart/raw/master/assets/typora_theme_orange_heart.png" alt="typora-theme-orange-heart theme preview" width="280" /></a> |
+| [Blackout](https://github.com/obscurefreeman/typora_theme_blackout) | A dark theme. | <a href="https://github.com/obscurefreeman/typora_theme_blackout/assets/119153032/1965cfd5-2d4b-4422-86d1-11c225c399ee"><img src="https://github.com/obscurefreeman/typora_theme_blackout/assets/119153032/1965cfd5-2d4b-4422-86d1-11c225c399ee" alt="Blackout theme preview" width="280" /></a> |
+| [Spring](https://github.com/SprInec/typora-spring-theme) | A light, uncluttered document theme. | <a href="https://github.com/SprInec/typora-spring-theme/raw/main/.assets/logo-spring.png"><img src="https://github.com/SprInec/typora-spring-theme/raw/main/.assets/logo-spring.png" alt="Spring theme preview" width="280" /></a> |
+| [Lapis](https://github.com/YiNNx/typora-theme-lapis) | A blue-accented theme. | <a href="https://github.com/YiNNx/typora-theme-lapis/raw/main/imgs/3.png"><img src="https://github.com/YiNNx/typora-theme-lapis/raw/main/imgs/3.png" alt="Lapis theme preview" width="280" /></a> |
+| [Ladder](https://github.com/guangzhengli/typora-ladder-theme) | Tailwind-style layout with LXGW Chinese fonts. | <a href="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/9Fw6vA.png"><img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/9Fw6vA.png" alt="Ladder theme preview" width="280" /></a> |
+| [Tailwind](https://github.com/andredelft/typora-tailwind-theme) | A layout based on Tailwind Typography. | <a href="https://github.com/andredelft/typora-tailwind-theme/raw/main/media/tailwind-screenshot.png"><img src="https://github.com/andredelft/typora-tailwind-theme/raw/main/media/tailwind-screenshot.png" alt="Tailwind theme preview" width="280" /></a> |
+| [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme) | A reading layout inspired by Vue documentation. | <a href="https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_01.png"><img src="https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_01.png" alt="typora-vue-theme theme preview" width="280" /></a> |
+| [typora-blubook-themes](https://github.com/HanryYu/typora-blubook-theme/tree/master) | A lightweight theme for reading and writing. | <a href="https://cdn.jsdelivr.net/gh/HanryYu/typora-blubook-theme@master/assets/3.png"><img src="https://cdn.jsdelivr.net/gh/HanryYu/typora-blubook-theme@master/assets/3.png" alt="typora-blubook-themes theme preview" width="280" /></a> |
+| [Phycat](https://github.com/sumruler/typora-theme-phycat) | Color accents that distinguish document sections and heading levels. | <a href="https://cdn.phycat.cn/localediter/202412131700150.png"><img src="https://cdn.phycat.cn/localediter/202412131700150.png" alt="Phycat theme preview" width="280" /></a> |
+| [Claude-like](https://github.com/Muyiiiii/Typora_Claude-Like_Theme) | Claude-inspired light, gray-blue and dark variants, with adjustments for Chinese typography. | <a href="https://raw.githubusercontent.com/Muyiiiii/Typora_Claude-Like_Theme/master/image/2026-03-11-claude-like-theme/light.png"><img src="https://raw.githubusercontent.com/Muyiiiii/Typora_Claude-Like_Theme/master/image/2026-03-11-claude-like-theme/light.png" alt="Claude-like light theme preview" width="280" /></a> |
 
-## 工具
+For Chinese academic layouts, start with LaTeX. For minimal styling, try Mdmdt or Notion; for a choice of color schemes, browse Drake. A theme can look different in the editor and in an exported PDF, so try an export before using it for a finished document.
 
-- [Upgit](https://github.com/pluveto/upgit) - 可以快捷地将文件上传到 Github 仓库并得到其直链。简洁跨平台，不常驻内存。可作为 Typora 的自定义上传器使用。
+To number headings and tables of contents, see [typora-theme-auto-numbering](https://github.com/lipengzhou/typora-theme-auto-numbering). It uses CSS and needs no plugin system. The [official numbering guide](https://support.typora.io/Auto-Numbering/) explains how to customize the styles.
 
-## 教程
+<a id="插件"></a>
+<a id="编辑增强"></a>
 
-- [《了不起的 Markdown》](https://book.douban.com/subject/37478156/) - 一本系统介绍大语言模型时代写作通用语言的实践指南，以“排版技巧—应用场景—语法规范—工具赋能—知识管理—智能协作”为主线，深度整合 Markdown 核心语法、工具生态与 AI 应用。也是国内第一本全面介绍 Obsidian 功能和实践的书籍。
+## Plugins
 
+- [Typora plugin](https://github.com/obgnail/typora_plugin) — A collection of editing features and utilities for Typora.
+- [Typora Community Plugin](https://github.com/typora-community-plugin/typora-community-plugin) — A community plugin system with plugin management, a command panel and other extensions.
+- [Collapsible Section](https://github.com/typora-community-plugin/typora-plugin-collapsible-section) — Fold and unfold Markdown sections. Requires Typora Community Plugin.
+- [Typora Copilot](https://github.com/Snowflyt/typora-copilot) — Use GitHub Copilot and Copilot Chat in Typora.
+- [VLOOK](https://github.com/MadMaxChow/VLOOK) — Themes and typesetting extensions for sharing Markdown documents as HTML.
 
+These are third-party projects. Check each project's supported Typora versions and operating systems before installing. For connected features such as Copilot, also check account requirements and which document contents are sent to the service.
 
----
+<a id="模板"></a>
 
+## Templates
 
+- [typora-markdown-resume](https://github.com/CodingDocs/typora-markdown-resume) — Résumé templates for software developers; replace the example content to get started.
+- [LapisCV](https://github.com/BingyanStudio/LapisCV) — Create a résumé with Markdown in Typora, VS Code or Obsidian.
 
-欢迎在 [Issues](https://github.com/bxiaopeng/awesome-markdown) 分享你的 Typora " 魔改 " 方案，让更多人看到！如果觉得这份清单有用的话，欢迎 Star。
+Check fonts and page breaks in the exported résumé.
+
+<a id="图片工具"></a>
+<a id="工具"></a>
+
+## Image uploaders
+
+- [PicGo](https://github.com/Molunerfinn/PicGo) — A desktop image uploader with support for multiple hosting services and plugins. A starting point for uploading images pasted into Typora.
+- [PicList](https://github.com/Kuingsmile/PicList) — Builds on PicGo with remote file management, useful for browsing and deleting uploaded images.
+- [PicGo-Core](https://github.com/PicGo/PicGo-Core) — The command-line version of PicGo, which Typora can call directly. An option when you do not need a desktop interface.
+- [uPic](https://github.com/gee1k/uPic) — A native macOS uploader for images and files, with drag-and-drop, clipboard and keyboard shortcuts. Updated less often; included as a native Mac option.
+- [Upgit](https://github.com/pluveto/upgit) — Upload files and get direct links through Typora's custom uploader. Check whether the destination repository or storage service is public before uploading.
+- [typora-plugin-bilibili](https://github.com/xlzy520/typora-plugin-bilibili) — Upload images to Bilibili and replace their links in the document. Current availability has not been confirmed.
+
+Typora's [image upload guide](https://support.typora.io/Upload-Image/) covers PicGo, PicList, PicGo-Core and uPic. Choose an uploader, then configure your image hosting service.
+
+<a id="导出与图表"></a>
+
+## Export and diagrams
+
+- [Pandoc](https://github.com/jgm/pandoc) — Document conversion software used by some of Typora's import and export options, including Word, EPUB and LaTeX. Follow the [official setup guide](https://support.typora.io/Install-and-Use-Pandoc/).
+- [Mermaid](https://github.com/mermaid-js/mermaid) — Write flowcharts, sequence diagrams, Gantt charts and more as text. Typora includes Mermaid support; no separate plugin is needed. Available syntax depends on the bundled version. See the [diagram guide](https://support.typora.io/Draw-Diagrams-With-Markdown/).
+
+<a id="学习资料"></a>
+<a id="教程"></a>
+
+## Learning resources
+
+- [Official theme gallery](https://theme.typora.io/) — Browse more themes by thumbnail or submit your own.
+- [Typora documentation](https://support.typora.io/) — Guides to editing, themes, images and export.
+- [《了不起的 Markdown》](https://book.douban.com/subject/37478156/) — A Chinese-language book about Markdown syntax, tools and writing applications. The link opens the book's listing page.
+
+<a id="参与贡献"></a>
+
+## Contributing
+
+Have a favorite theme or a useful plugin? Share it in [Issues](https://github.com/mansucache/awesome-typora/issues) or open a pull request. Include the project link and why you recommend it; a theme preview is helpful. See the [contribution guide](CONTRIBUTING.md#english), and update both language editions when adding or removing resources.
+
+Broken links and corrections are welcome too. This list has not been installation-tested item by item; report problems with a specific plugin to its own project.
+
+<a id="许可"></a>
+
+## License
+
+This list is available under the [MIT License](LICENSE). Listed projects, fonts and images remain subject to their authors' licenses and copyrights.
