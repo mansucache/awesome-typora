@@ -6,13 +6,13 @@
 
 English | [简体中文](README.zh-CN.md)
 
-Themes, plugins and templates for Typora. Find a new writing layout, make a résumé, or add features to your editor.
+Themes, plugins, templates and tools for Typora, with theme previews.
 
 For more Markdown editors, writing tools and publishing resources, see [Awesome Markdown](https://github.com/mansucache/awesome-markdown).
 
 [Themes](#themes) · [Plugins](#plugins) · [Templates](#templates) · [Image uploaders](#image-uploaders) · [Export and diagrams](#export-and-diagrams) · [Learning resources](#learning-resources) · [Contributing](#contributing)
 
-New additions favor projects with community interest and recent maintenance. See the dated [star counts and maintenance review](docs/resource-review.en.md).
+[Star counts and maintenance records](docs/resource-review.en.md).
 
 <a id="主题"></a>
 
@@ -100,6 +100,8 @@ Typora's [image upload guide](https://support.typora.io/Upload-Image/) covers Pi
 Have a favorite theme or a useful plugin? Share it in [Issues](https://github.com/mansucache/awesome-typora/issues) or open a pull request. Include the project link and why you recommend it; a theme preview is helpful. See the [contribution guide](CONTRIBUTING.md#english), and update both language editions when adding or removing resources.
 
 Broken links and corrections are welcome too. This list has not been installation-tested item by item; report problems with a specific plugin to its own project.
+
+[Maintenance guide and checks](docs/maintenance.md#english).
 
 <a id="许可"></a>
 

@@ -1,0 +1,23 @@
+name: Catalog checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Check catalog
+        run: python3 scripts/check_catalog.py
+      - name: Test checks
+        run: python3 -m unittest discover -s tests -v

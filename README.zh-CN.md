@@ -6,13 +6,13 @@
 
 [English](README.md) | 简体中文
 
-收集好用的 Typora 主题、插件和模板。换个写作界面、做份简历，或给编辑器添点功能，都可以从这里找起。
+Typora 主题、插件、模板与工具，附主题预览图。
 
 想找更多 Markdown 编辑器、写作与发布工具，可以接着看 [Awesome Markdown](https://github.com/mansucache/awesome-markdown)。
 
 [主题](#主题) · [插件](#插件) · [模板](#模板) · [图片工具](#图片工具) · [导出与图表](#导出与图表) · [学习资料](#学习资料) · [参与贡献](#参与贡献)
 
-新增资源优先选有一定 Star 积累、近期仍在维护的项目。[查看 Star 与更新记录](docs/resource-review.md)。
+[Star 与维护记录](docs/resource-review.md)。
 
 ## 主题
 
@@ -83,6 +83,8 @@ PicGo、PicList、PicGo-Core 和 uPic 都有 [Typora 官方接入说明](https:/
 有喜欢的主题或用得顺手的插件，欢迎到 [Issues](https://github.com/mansucache/awesome-typora/issues) 分享，也可以直接提 PR。附上项目链接和推荐理由就好；主题最好带张预览图。提交前可看[贡献说明](CONTRIBUTING.md#简体中文)，增删资源时请同步中英文列表。
 
 发现链接失效或说明有误，也欢迎指出。这份清单没有逐项安装测试，具体插件的使用问题请到对应项目反馈。
+
+[维护与检查说明](docs/maintenance.md#简体中文)。
 
 ## 许可
 
