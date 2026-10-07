@@ -45,3 +45,26 @@
 ## 验证范围
 
 本次完成公开资料、Star、提交记录与新增主题图片地址的核验，没有安装运行这些工具，也没有逐项复测旧资源。Star 和日期是上述日期的快照，后续可能变化。
+
+## 旧条目复核
+
+2026-10-07 复核了以下项目的公开 README、安装要求、归档状态和许可。以下六个项目当日均未归档；未进行安装实测。
+
+| 项目 | 核对结果 |
+| --- | --- |
+| [Typora plugin](https://github.com/obgnail/typora_plugin) | 原生支持 Windows/Linux、Typora ≥0.9.98；macOS 不在原生支持范围。补充全文搜索、标签和自动编号用途。 |
+| [Typora Community Plugin](https://github.com/typora-community-plugin/typora-community-plugin) | 提供插件管理、命令面板、标签页和分屏；三个桌面平台的版本范围见原项目兼容表。 |
+| [Collapsible Section](https://github.com/typora-community-plugin/typora-plugin-collapsible-section) | 依赖 Community Plugin；支持折叠标题、列表、代码块和表格。 |
+| [Typora Copilot](https://github.com/Snowflyt/typora-copilot) | 上游要求有效 Copilot 订阅；Typora 1.10 及以上还需 Node.js ≥20。 |
+| [VLOOK](https://github.com/MadMaxChow/VLOOK) | 主题与 HTML 导出扩展，保留现有分类和用途说明。 |
+| [Upgit](https://github.com/pluveto/upgit) | 支持 Windows/Linux/macOS；需配置上传目标，GitHub 后端需要仓库与具有内容读写权限的令牌。 |
+
+## 待复核
+
+- [typora-plugin-bilibili](https://github.com/xlzy520/typora-plugin-bilibili)：2026-10-07 重试公开项目页和 GitHub API，均返回 404。已从首页推荐区移到此处；无法据此区分删除、转为私有或迁移。找到可访问的原项目或作者确认的迁移地址，并复核说明后再恢复。
+
+## 主题图片复核
+
+检查了 14 个主题的预览来源和仓库许可，详情见[图片来源记录](image-sources.md)。Spring 改用实际文档预览，Phycat 改用作者当前 README 的图片。Vue 原作者明确展示并致谢 Vue Dark 分支，因此不能把该预览判为错配；条目已写明深色变体。四项图片的使用依据仍不明确，首页保留项目和作者预览链接。
+
+本轮未实测主题安装、插件运行和导出效果；主题仓库未归档也不等于兼容当前 Typora。此前八个新增项目的 Star 和提交数据仍为上方注明日期的快照。

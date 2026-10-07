@@ -2,6 +2,7 @@
 
 import re
 import sys
+from collections import Counter
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
@@ -37,6 +38,38 @@ def canonical(url):
 def external_links(text):
     return [canonical(u) for u in links(text)
             if urlsplit(u).scheme in ('http', 'https')]
+
+
+def resource_ids(text):
+    """Only entry-leading links, not navigation or links in descriptions."""
+    urls = re.findall(r'^(?:- |\| )\[[^\]]+\]\((https?://[^)]+)\)',
+                      prose(text), re.MULTILINE)
+    identities = []
+    for url in urls:
+        url = canonical(url)
+        parsed = urlsplit(url)
+        path = parsed.path.rstrip('/')
+        # Treat repository README/tree entry points as the same project.
+        if parsed.netloc.lower() == 'github.com':
+            path = re.sub(r'/(?:tree/[^/]+|blob/[^/]+/README(?:[^/]*)?)$', '', path, flags=re.I).removesuffix('.git').lower()
+        identities.append((parsed.netloc.lower(), path, parsed.query))
+    return identities
+
+
+def review_values(text):
+    """Compare dated review table facts, leaving translated prose independent."""
+    values = []
+    for line in text.splitlines():
+        cells = [cell.strip() for cell in line.strip('|').split('|')]
+        if line.startswith('| [') and len(cells) == 5 and re.fullmatch(r'[\d,]+', cells[1]):
+            date = re.search(r'\d{4}-\d{2}-\d{2}', cells[2])
+            urls = links(cells[0])
+            if not date or not urls:
+                values.append(('invalid review row', line))
+            else:
+                values.append((canonical(urls[0]), cells[1].replace(',', ''),
+                               date.group(), tuple(links(cells[2])), cells[3]))
+    return values
 
 
 def check(root):
@@ -80,6 +113,10 @@ def check(root):
         errors.append('Both README editions are required')
     else:
         en, zh = [p.read_text(encoding='utf-8') for p in editions]
+        for path, text in zip(editions, (en, zh)):
+            for identity, count in Counter(resource_ids(text)).items():
+                if count > 1:
+                    errors.append(f'{path.name}: duplicate resource: {identity[0]}{identity[1]}')
         if external_links(en) != external_links(zh):
             errors.append('README resource links/images differ in content or order')
         if re.findall(r'<img\b[^>]*src="([^"]+)"', en) != re.findall(r'<img\b[^>]*src="([^"]+)"', zh):
@@ -88,8 +125,14 @@ def check(root):
             if other not in links(text):
                 errors.append(f'Missing language switch to {other}')
         for text in (en, zh):
-            if 'imgs/awesome-typora-banner.png' not in links(text):
+            if not any(u.startswith('imgs/awesome-typora-banner') for u in links(text)):
                 errors.append('README banner missing')
+    reviews = [root / 'docs/resource-review.md', root / 'docs/resource-review.en.md']
+    if any(p.exists() for p in reviews):
+        if not all(p.is_file() for p in reviews):
+            errors.append('Both resource review editions are required')
+        elif review_values(reviews[0].read_text(encoding='utf-8')) != review_values(reviews[1].read_text(encoding='utf-8')):
+            errors.append('Bilingual review facts differ: project, stars, date, source or commit count')
     return errors
 
 

@@ -4,7 +4,7 @@ from pathlib import Path
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from check_catalog import check, anchors
+from check_catalog import check, anchors, resource_ids
 
 
 class CatalogChecks(unittest.TestCase):
@@ -60,6 +60,42 @@ class CatalogChecks(unittest.TestCase):
         self.append('```md\n[Example](does-not-exist.md)\n```\n')
         self.assertEqual(check(self.root), [])
         self.assertEqual(anchors('# A\n## A\n<a id="主题"></a>'), {'a', 'a-1', '主题'})
+
+    def test_duplicate_in_both_editions(self):
+        for name in ('README.md', 'README.zh-CN.md'):
+            with (self.root / name).open('a', encoding='utf-8') as f:
+                f.write('- [PicGo](https://github.com/Molunerfinn/PicGo)\n' * 2)
+        self.assertTrue(any('duplicate resource' in e for e in check(self.root)))
+
+    def test_navigation_and_description_references_allowed(self):
+        self.append('[Navigation](https://example.org/project)\n')
+        p = self.root / 'README.zh-CN.md'
+        p.write_text(p.read_text() + '[导航](https://example.org/project)\n', encoding='utf-8')
+        self.assertEqual(check(self.root), [])
+
+    def test_repository_aliases_preserve_deep_links(self):
+        ids = resource_ids('- [A](https://github.com/owner/project)\n'
+                           '- [B](https://github.com/OWNER/project/blob/main/README.md)\n'
+                           '- [C](https://github.com/owner/project/blob/main/docs/guide.md)\n')
+        self.assertEqual(ids[0], ids[1])
+        self.assertNotEqual(ids[0], ids[2])
+
+    def test_missing_review_translation(self):
+        (self.root / 'docs').mkdir()
+        (self.root / 'docs/resource-review.md').write_text('# Review\n', encoding='utf-8')
+        self.assertTrue(any('Both resource review editions' in e for e in check(self.root)))
+
+    def test_review_facts(self):
+        (self.root / 'docs').mkdir()
+        row = '| [Tool](https://github.com/example/tool) | 1,234 | [2026-10-07](https://example.org/commits) | 12 | Description |\n'
+        zh = self.root / 'docs/resource-review.md'
+        en = self.root / 'docs/resource-review.en.md'
+        zh.write_text(row.replace('Description', '说明'), encoding='utf-8')
+        en.write_text(row, encoding='utf-8')
+        self.assertEqual(check(self.root), [])
+        for before, after in [('1,234', '1'), ('2026-10-07', '2026-10-06'), ('| 12 |', '| 1 |')]:
+            en.write_text(row.replace(before, after), encoding='utf-8')
+            self.assertTrue(any('review facts differ' in e for e in check(self.root)))
 
 
 if __name__ == '__main__':

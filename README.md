@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="imgs/awesome-typora-banner.png" alt="Awesome Typora — themes, plugins and tools for Markdown" width="100%" />
+  <a href="imgs/awesome-typora-banner.png"><img src="imgs/awesome-typora-banner-preview.jpg" alt="Awesome Typora — themes, plugins and tools for Markdown" width="100%" /></a>
 </p>
 
 # Awesome Typora
@@ -18,23 +18,23 @@ For more Markdown editors, writing tools and publishing resources, see [Awesome 
 
 ## Themes
 
-Browse the previews, then open a project's page for installation instructions. Click an image to view it at full size.
+Click an image for the full-size preview, or a project name for installation instructions. “Author previews” links open images on the original project page.
 
 | Theme | Description | Preview |
 | --- | --- | :---: |
-| [LaTeX](https://github.com/Keldos-Li/typora-latex-theme) | LaTeX-style typography for Chinese documents and coursework. | <a href="imgs/typora-latex-theme.png"><img src="imgs/typora-latex-theme.png" alt="LaTeX theme preview" width="280" /></a> |
+| [LaTeX](https://github.com/Keldos-Li/typora-latex-theme) | LaTeX-style typography for Chinese documents and coursework. | [Author previews](https://github.com/Keldos-Li/typora-latex-theme) |
 | [DrakeTyporaTheme](https://github.com/liangjingkanji/DrakeTyporaTheme) | A collection of color schemes for different writing preferences. | <a href="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png"><img src="https://raw.githubusercontent.com/liangjingkanji/DrakeTyporaTheme/master/img/thumbnail-dark.png" alt="DrakeTyporaTheme theme preview" width="280" /></a> |
 | [Mdmdt](https://github.com/cayxc/Mdmdt) | Minimal document styling with light and dark variants. | <a href="https://github.com/cayxc/Mdmdt/raw/main/img/mdmdt-source.png"><img src="https://github.com/cayxc/Mdmdt/raw/main/img/mdmdt-source.png" alt="Mdmdt theme preview" width="280" /></a> |
 | [Notion for Typora](https://github.com/adrian-fuertes/typora-notion-theme) | Document styling inspired by Notion. | <a href="https://github.com/adrian-fuertes/typora-notion-theme/raw/main/assets/images/header-horizontal.jpg"><img src="https://github.com/adrian-fuertes/typora-notion-theme/raw/main/assets/images/header-horizontal.jpg" alt="Notion for Typora theme preview" width="280" /></a> |
 | [typora-theme-orange-heart](https://github.com/evgo2017/typora-theme-orange-heart) | Adapted from the Orange Heart theme in markdown-nice. | <a href="https://github.com/evgo2017/typora-theme-orange-heart/raw/master/assets/typora_theme_orange_heart.png"><img src="https://github.com/evgo2017/typora-theme-orange-heart/raw/master/assets/typora_theme_orange_heart.png" alt="typora-theme-orange-heart theme preview" width="280" /></a> |
-| [Blackout](https://github.com/obscurefreeman/typora_theme_blackout) | A dark theme. | <a href="https://github.com/obscurefreeman/typora_theme_blackout/assets/119153032/1965cfd5-2d4b-4422-86d1-11c225c399ee"><img src="https://github.com/obscurefreeman/typora_theme_blackout/assets/119153032/1965cfd5-2d4b-4422-86d1-11c225c399ee" alt="Blackout theme preview" width="280" /></a> |
-| [Spring](https://github.com/SprInec/typora-spring-theme) | A light, uncluttered document theme. | <a href="https://github.com/SprInec/typora-spring-theme/raw/main/.assets/logo-spring.png"><img src="https://github.com/SprInec/typora-spring-theme/raw/main/.assets/logo-spring.png" alt="Spring theme preview" width="280" /></a> |
+| [Blackout](https://github.com/obscurefreeman/typora_theme_blackout) | Dark backgrounds with contrasting text and code colors. | <a href="https://github.com/obscurefreeman/typora_theme_blackout/assets/119153032/1965cfd5-2d4b-4422-86d1-11c225c399ee"><img src="https://github.com/obscurefreeman/typora_theme_blackout/assets/119153032/1965cfd5-2d4b-4422-86d1-11c225c399ee" alt="Blackout theme preview" width="280" /></a> |
+| [Spring](https://github.com/SprInec/typora-spring-theme) | A light, uncluttered document theme. | <a href="https://raw.githubusercontent.com/SprInec/typora-spring-theme/main/.assets/preview.png"><img src="https://raw.githubusercontent.com/SprInec/typora-spring-theme/main/.assets/preview.png" alt="Spring theme preview" width="280" /></a> |
 | [Lapis](https://github.com/YiNNx/typora-theme-lapis) | A blue-accented theme. | <a href="https://github.com/YiNNx/typora-theme-lapis/raw/main/imgs/3.png"><img src="https://github.com/YiNNx/typora-theme-lapis/raw/main/imgs/3.png" alt="Lapis theme preview" width="280" /></a> |
-| [Ladder](https://github.com/guangzhengli/typora-ladder-theme) | Tailwind-style layout with LXGW Chinese fonts. | <a href="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/9Fw6vA.png"><img src="https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/9Fw6vA.png" alt="Ladder theme preview" width="280" /></a> |
-| [Tailwind](https://github.com/andredelft/typora-tailwind-theme) | A layout based on Tailwind Typography. | <a href="https://github.com/andredelft/typora-tailwind-theme/raw/main/media/tailwind-screenshot.png"><img src="https://github.com/andredelft/typora-tailwind-theme/raw/main/media/tailwind-screenshot.png" alt="Tailwind theme preview" width="280" /></a> |
-| [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme) | A reading layout inspired by Vue documentation. | <a href="https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_01.png"><img src="https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_01.png" alt="typora-vue-theme theme preview" width="280" /></a> |
+| [Ladder](https://github.com/guangzhengli/typora-ladder-theme) | Tailwind-style layout with LXGW Chinese fonts. | [Author previews](https://github.com/guangzhengli/typora-ladder-theme) |
+| [Tailwind](https://github.com/andredelft/typora-tailwind-theme) | Tailwind Typography layouts in light and dark variants, with configurable grayscale. | [Author previews](https://github.com/andredelft/typora-tailwind-theme) |
+| [typora-vue-theme](https://github.com/blinkfox/typora-vue-theme) | Vue documentation styling, including Vue Dark; the project page shows both variants. | [Author previews](https://github.com/blinkfox/typora-vue-theme) |
 | [typora-blubook-themes](https://github.com/HanryYu/typora-blubook-theme/tree/master) | A lightweight theme for reading and writing. | <a href="https://cdn.jsdelivr.net/gh/HanryYu/typora-blubook-theme@master/assets/3.png"><img src="https://cdn.jsdelivr.net/gh/HanryYu/typora-blubook-theme@master/assets/3.png" alt="typora-blubook-themes theme preview" width="280" /></a> |
-| [Phycat](https://github.com/sumruler/typora-theme-phycat) | Color accents that distinguish document sections and heading levels. | <a href="https://cdn.phycat.cn/localediter/202412131700150.png"><img src="https://cdn.phycat.cn/localediter/202412131700150.png" alt="Phycat theme preview" width="280" /></a> |
+| [Phycat](https://github.com/sumruler/typora-theme-phycat) | Color accents that distinguish document sections and heading levels. | <a href="https://raw.githubusercontent.com/sumruler/typora-theme-phycat/main/assets/image-20251224115955956.png"><img src="https://raw.githubusercontent.com/sumruler/typora-theme-phycat/main/assets/image-20251224115955956.png" alt="Phycat theme preview" width="280" /></a> |
 | [Claude-like](https://github.com/Muyiiiii/Typora_Claude-Like_Theme) | Claude-inspired light, gray-blue and dark variants, with adjustments for Chinese typography. | <a href="https://raw.githubusercontent.com/Muyiiiii/Typora_Claude-Like_Theme/master/image/2026-03-11-claude-like-theme/light.png"><img src="https://raw.githubusercontent.com/Muyiiiii/Typora_Claude-Like_Theme/master/image/2026-03-11-claude-like-theme/light.png" alt="Claude-like light theme preview" width="280" /></a> |
 
 For Chinese academic layouts, start with LaTeX. For minimal styling, try Mdmdt or Notion; for a choice of color schemes, browse Drake. A theme can look different in the editor and in an exported PDF, so try an export before using it for a finished document.
@@ -46,10 +46,10 @@ To number headings and tables of contents, see [typora-theme-auto-numbering](htt
 
 ## Plugins
 
-- [Typora plugin](https://github.com/obgnail/typora_plugin) — A collection of editing features and utilities for Typora.
-- [Typora Community Plugin](https://github.com/typora-community-plugin/typora-community-plugin) — A community plugin system with plugin management, a command panel and other extensions.
-- [Collapsible Section](https://github.com/typora-community-plugin/typora-plugin-collapsible-section) — Fold and unfold Markdown sections. Requires Typora Community Plugin.
-- [Typora Copilot](https://github.com/Snowflyt/typora-copilot) — Use GitHub Copilot and Copilot Chat in Typora.
+- [Typora plugin](https://github.com/obgnail/typora_plugin) — Full-text search, tags and automatic numbering. Native support for Windows/Linux with Typora ≥0.9.98; macOS is not natively supported.
+- [Typora Community Plugin](https://github.com/typora-community-plugin/typora-community-plugin) — Plugin management, a command panel, tabs and split views for Windows, Linux and macOS. Check its compatibility table for supported Typora versions.
+- [Collapsible Section](https://github.com/typora-community-plugin/typora-plugin-collapsible-section) — Fold headings, lists, code blocks and tables. Install Typora Community Plugin first, then add this extension from its marketplace.
+- [Typora Copilot](https://github.com/Snowflyt/typora-copilot) — Completions and Copilot Chat in Typora. Upstream requires an active GitHub Copilot subscription; Typora 1.10 and later also require Node.js ≥20.
 - [VLOOK](https://github.com/MadMaxChow/VLOOK) — Themes and typesetting extensions for sharing Markdown documents as HTML.
 
 These are third-party projects. Check each project's supported Typora versions and operating systems before installing. For connected features such as Copilot, also check account requirements and which document contents are sent to the service.
@@ -73,11 +73,12 @@ Check fonts and page breaks in the exported résumé.
 - [PicGo-Core](https://github.com/PicGo/PicGo-Core) — The command-line version of PicGo, which Typora can call directly. An option when you do not need a desktop interface.
 - [uPic](https://github.com/gee1k/uPic) — A native macOS uploader for images and files, with drag-and-drop, clipboard and keyboard shortcuts. Updated less often; included as a native Mac option.
 - [Upgit](https://github.com/pluveto/upgit) — Upload files and get direct links through Typora's custom uploader. Check whether the destination repository or storage service is public before uploading.
-- [typora-plugin-bilibili](https://github.com/xlzy520/typora-plugin-bilibili) — Upload images to Bilibili and replace their links in the document. Current availability has not been confirmed.
 
 Typora's [image upload guide](https://support.typora.io/Upload-Image/) covers PicGo, PicList, PicGo-Core and uPic. Choose an uploader, then configure your image hosting service.
 
 <a id="导出与图表"></a>
+
+For unavailable older resources, see [pending reviews](docs/resource-review.en.md#pending-review).
 
 ## Export and diagrams
 
@@ -97,13 +98,15 @@ Typora's [image upload guide](https://support.typora.io/Upload-Image/) covers Pi
 
 ## Contributing
 
-Have a favorite theme or a useful plugin? Share it in [Issues](https://github.com/mansucache/awesome-typora/issues) or open a pull request. Include the project link and why you recommend it; a theme preview is helpful. See the [contribution guide](CONTRIBUTING.md#english), and update both language editions when adding or removing resources.
+Have a favorite theme or a useful plugin? Share it in [Issues](https://github.com/mansucache/awesome-typora/issues) or open a pull request. Include the project link and why you recommend it; a theme preview is helpful. See the [contribution guide](CONTRIBUTING.md#english). You may start with a single-language draft and complete the other edition with maintainer help before merging.
 
 Broken links and corrections are welcome too. This list has not been installation-tested item by item; report problems with a specific plugin to its own project.
 
 [Maintenance guide and checks](docs/maintenance.md#english).
 
 <a id="许可"></a>
+
+[Image sources and license notes](docs/image-sources.md).
 
 ## License
 

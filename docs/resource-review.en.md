@@ -45,3 +45,26 @@ None of these projects was archived when checked. Recent records for PicGo, PicL
 ## Scope
 
 This review checked public documentation, stars, commit records and the new theme's preview URL. It did not install or run these tools, or retest every existing entry. Counts and dates are a snapshot and may change.
+
+## Existing entries reviewed
+
+On 2026-10-07, we checked the public READMEs, installation requirements, archive status and licenses of the following projects. All six were unarchived; none was installation-tested.
+
+| Project | Findings |
+| --- | --- |
+| [Typora plugin](https://github.com/obgnail/typora_plugin) | Native Windows/Linux support with Typora ≥0.9.98; no native macOS support. Added full-text search, tags and automatic numbering to the description. |
+| [Typora Community Plugin](https://github.com/typora-community-plugin/typora-community-plugin) | Plugin management, command panel, tabs and split views; see upstream's compatibility table for versions on each desktop platform. |
+| [Collapsible Section](https://github.com/typora-community-plugin/typora-plugin-collapsible-section) | Requires Community Plugin; folds headings, lists, code blocks and tables. |
+| [Typora Copilot](https://github.com/Snowflyt/typora-copilot) | Upstream requires an active Copilot subscription; Typora 1.10 and later also require Node.js ≥20. |
+| [VLOOK](https://github.com/MadMaxChow/VLOOK) | Themes and HTML export extensions; existing placement and description retained. |
+| [Upgit](https://github.com/pluveto/upgit) | Supports Windows/Linux/macOS; requires destination configuration. The GitHub backend needs a repository and a token with contents read/write permissions. |
+
+## Pending review
+
+- [typora-plugin-bilibili](https://github.com/xlzy520/typora-plugin-bilibili): both the public project page and GitHub API returned 404 on retry on 2026-10-07. Moved here from the homepage recommendations. This does not distinguish deletion, private visibility or migration. Restore after finding an accessible original project or an author-confirmed replacement and reviewing its instructions.
+
+## Theme images reviewed
+
+Checked preview sources and repository licenses for all 14 themes; see [image source records](image-sources.md). Spring now shows a document preview, and Phycat uses an image in the author's current README. Vue's original author displays and credits the Vue Dark fork, so that preview is not a mismatch; the description now identifies the dark variant. Four images have unresolved usage terms; their entries retain project and author-preview links.
+
+Theme installation, plugin behavior and export output were not tested. An unarchived theme is not a guarantee of compatibility with current Typora. Star and commit figures for the earlier eight additions remain dated snapshots above.
