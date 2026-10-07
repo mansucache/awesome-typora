@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="imgs/awesome-typora-banner.png" alt="Awesome Typora — themes, plugins and tools for Markdown" width="100%" />
+</p>
+
 # Awesome Typora
 
 English | [简体中文](README.zh-CN.md)
