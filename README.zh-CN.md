@@ -8,6 +8,8 @@
 
 Typora 主题、插件、模板与工具，附主题预览图。
 
+> **[认识 Typora 2.0](https://v2.typora.io/)** — 到官方预告页了解下一代 Typora，也可以提交和投票支持你期待的功能。
+
 相关清单：[Awesome Markdown](https://github.com/mansucache/awesome-markdown) 收录 Markdown 编辑器、写作与发布工具；[Awesome Obsidian](https://github.com/mansucache/awesome-obsidian) 收录 Obsidian 插件、主题与工作流。
 
 [主题](#主题) · [插件](#插件) · [模板](#模板) · [图片工具](#图片工具) · [导出与图表](#导出与图表) · [学习资料](#学习资料) · [参与贡献](#参与贡献)

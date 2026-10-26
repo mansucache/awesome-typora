@@ -8,6 +8,8 @@ English | [简体中文](README.zh-CN.md)
 
 Themes, plugins, templates and tools for Typora, with theme previews.
 
+> **[Discover Typora 2.0](https://v2.typora.io/)** — Explore the next version and share your feature requests on the official preview site.
+
 Related collections: [Awesome Markdown](https://github.com/mansucache/awesome-markdown) for Markdown editors, writing and publishing tools; [Awesome Obsidian](https://github.com/mansucache/awesome-obsidian) for Obsidian plugins, themes and workflows.
 
 [Themes](#themes) · [Plugins](#plugins) · [Templates](#templates) · [Image uploaders](#image-uploaders) · [Export and diagrams](#export-and-diagrams) · [Learning resources](#learning-resources) · [Contributing](#contributing)
