@@ -53,6 +53,7 @@ To number headings and tables of contents, see [typora-theme-auto-numbering](htt
 - [Collapsible Section](https://github.com/typora-community-plugin/typora-plugin-collapsible-section) — Fold headings, lists, code blocks and tables. Install Typora Community Plugin first, then add this extension from its marketplace.
 - [Typora Copilot](https://github.com/Snowflyt/typora-copilot) — Completions and Copilot Chat in Typora. Upstream requires an active GitHub Copilot subscription; Typora 1.10 and later also require Node.js ≥20.
 - [VLOOK](https://github.com/MadMaxChow/VLOOK) — Themes and typesetting extensions for sharing Markdown documents as HTML.
+- [PasteLaTeX](https://github.com/BianJi777/PasteLaTeX) — Paste formulas copied from AI chats (ChatGPT, DeepSeek, Gemini) into Typora as LaTeX; keeps tables and undo. Requires Typora Community Plugin.
 
 These are third-party projects. Check each project's supported Typora versions and operating systems before installing. For connected features such as Copilot, also check account requirements and which document contents are sent to the service.
 
