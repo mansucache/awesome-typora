@@ -48,6 +48,7 @@ Typora 主题、插件、模板与工具，附主题预览图。
 - [Collapsible Section](https://github.com/typora-community-plugin/typora-plugin-collapsible-section) — 折叠标题、列表、代码块和表格，需先安装 Typora Community Plugin，再从其插件市场安装。
 - [Typora Copilot](https://github.com/Snowflyt/typora-copilot) — 在 Typora 中补全内容并使用 Copilot Chat。上游要求有效的 GitHub Copilot 订阅；Typora 1.10 起还需 Node.js ≥20。
 - [VLOOK](https://github.com/MadMaxChow/VLOOK) — 主题包与排版增强插件，适合用 Markdown 制作可分享的 HTML 文档。
+- [PasteLaTeX](https://github.com/BianJi777/PasteLaTeX) — 将从 ChatGPT、DeepSeek、Gemini 等 AI 对话复制的公式粘贴为 LaTeX，保留表格结构与撤销操作。需先安装 Typora Community Plugin。
 
 这些是第三方项目，安装前请查看各自支持的 Typora 版本和系统。Copilot 等联网功能还需留意账号要求，以及哪些文档内容会发送给服务。
 
